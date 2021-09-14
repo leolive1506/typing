@@ -1,0 +1,4 @@
+Criar aplicação reactjs
+    npx create-react-app nameFolder
+
+    editar o App.js

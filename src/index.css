@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     text-align: center;
     display: flex;
@@ -61,5 +61,6 @@ body {
     margin-top: 20px;
     font-size: 1.3rem;
     width: 600px;
-    overflow: hidden
+    overflow: hidden;
+    word-wrap: hidden;
 }

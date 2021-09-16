@@ -2,3 +2,32 @@ Criar aplicação reactjs
     npx create-react-app nameFolder
 
     editar o App.js
+
+Pra usar onKeyDown em el que não é input
+    Tem que add tbm o tabIndex
+
+chamar funções ou variaveis no react usar {}
+    ex: <div className="typed-keys">{typedKeys ? typedKeys.join(' ') : null}</div>
+    <div className="container" tabIndex="0" onKeyDown={handleKeyDown}></div>
+
+
+
+useState
+    Biblioteca Hooks react
+    import React, { useState } from 'react';
+
+    Sintaxe
+        const [nomeVariavel, funçãoManipulaVariavel] = useState(valorInicial)
+
+useEffect
+    sintaxe
+        1- uma função, 2- array dependencias
+        useEffect(() => {
+            codigo que quer executar
+        }, [quando vai ser executado])
+
+        ex: useEffect(() => {
+            document.title = counter;
+        }, [counter]) //quando counter mudar o title muda
+
+        
